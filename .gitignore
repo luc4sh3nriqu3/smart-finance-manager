@@ -1,0 +1,20 @@
+# Database
+data/*/*.csv
+data/*/*.parquet
+
+# Virtual environment
+.env
+
+# Temp arch duckDB
+*.duckdb
+*.db
+*.wal
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+others.txt
