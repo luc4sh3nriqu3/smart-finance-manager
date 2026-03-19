@@ -19,7 +19,7 @@ bank_paths = {
 
 for file_prefix, relative_path in bank_paths.items():
 
-    p_in = (bronze_path / relative_path / '*.parquet')
+    p_in = bronze_path / relative_path / '*.parquet'
     p_out = silver_path / relative_path / f'{file_prefix}.parquet'
     sql_file = sql_path / relative_path / f'{file_prefix}.sql'
 
